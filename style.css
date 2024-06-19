@@ -1,18 +1,17 @@
 .menu {
     list-style: none;
     display: flex;
-    gap: 100px;
     font-size: 20px;
 
-    background-color: #A53E76;
+    background-color: #9D7166;
 }
 
 ul {
     list-style: none;
-    gap: 400px;
     display: flex;
+    width: 100vw;
+    justify-content: space-around;
     margin: auto;
-
 }
 
 a{
@@ -21,7 +20,7 @@ a{
 }
 
 h1 {
-    background-color: #A53E76;
+    background-color: #9D7166;
     color: #ffffff;
     text-align: center;
     font-size: 22px;
@@ -35,31 +34,31 @@ h1 {
 
 .imagem img {
     border-radius: 50%;
-    border: 1px solid #A53E76;
+    border: 1px solid #9D7166;
     width: 300px;
     height: 300px;
 }
 
 section {
-    background-color: #E27BB1;
+    background-color: #D2C0B6;
 }
 
 article {
     display: flex;
-    width: 1400px;
     margin: auto;
     gap: 100px;
+    width: 100vw;
 }
 
 h2 {
-    background-color: #A53E76;
+    background-color: #9D7166;
     color: #ffffff;
     text-align: center;
     font-size: 22px;
 }
 
 body {
-    background-color: #F2B8C6;
+    background-color: #D2C0B6;
 }
 
 .video {
@@ -100,20 +99,27 @@ input {
 button {
     font-size: 16px;
     border-radius: 50px;
-    border: 1px solid #A53E76;
-    background-color: #E27BB1;
+    border: 1px solid #9D7166;
+    background-color: #D2C0B6;
     color: #ffffff;
     transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-    background-color: #A53E76;
+    background-color: #9D7166;
     color: #ffffff;
 }
 
 @media screen and (max-width: 600px) {
+    .menu {
+        width: 100vw;
+    }
+
+    ul {
+        gap: 1rem;
+    }
+    
     .conteudo {
-        min-width: 400px;
         display: flex;
         flex-direction: column;
         max-width: 90vw;
@@ -121,6 +127,6 @@ button:hover {
 
     .paragrafos {
         font-size: 14px;
-
     }
 }
+
