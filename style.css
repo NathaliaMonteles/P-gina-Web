@@ -31,7 +31,6 @@ h1 {
     text-align: justify;
     margin-top: 10px;
     font-size: 20px;
-
 }
 
 .imagem img {
@@ -110,4 +109,18 @@ button {
 button:hover {
     background-color: #A53E76;
     color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .conteudo {
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+    }
+
+    .paragrafos {
+        font-size: 14px;
+
+    }
 }
