@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .menu {
     list-style: none;
     display: flex;
@@ -24,6 +29,7 @@ h1 {
     color: #ffffff;
     text-align: center;
     font-size: 22px;
+    margin-top: 20px;
 }
 
 .paragrafos {
@@ -47,7 +53,7 @@ article {
     display: flex;
     margin: auto;
     gap: 100px;
-    width: 100vw;
+    width: 90vw;
 }
 
 h2 {
@@ -103,12 +109,21 @@ button {
     background-color: #D2C0B6;
     color: #ffffff;
     transition: background-color 0.3s, color 0.3s;
+
+    display: flex;
+    justify-content: center;
 }
 
 button:hover {
     background-color: #9D7166;
     color: #ffffff;
 }
+
+.card img {
+    max-width: 90vw;
+    max-height: 90vw;
+}
+
 
 @media screen and (max-width: 600px) {
     .menu {
@@ -117,6 +132,8 @@ button:hover {
 
     ul {
         gap: 1rem;
+        justify-content: space-between;
+        padding-left: 10px;
     }
     
     .conteudo {
@@ -128,5 +145,24 @@ button:hover {
     .paragrafos {
         font-size: 14px;
     }
+
+    .imagem img {
+        display: block;
+        margin: 5px auto;
+        max-width: 100%;
+    }
 }
 
+.endereco {
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.video {
+    margin-top: 50px;;
+}
